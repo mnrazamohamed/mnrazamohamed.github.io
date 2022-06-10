@@ -16,7 +16,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -81,7 +86,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align-last: center;
   font-family: "Poppins", sans-serif;
 }
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -134,7 +140,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   white-space: nowrap;
 }
-.nav-menu a, .nav-menu a:focus {
+.nav-menu a,
+.nav-menu a:focus {
   display: flex;
   align-items: center;
   color: #a8a9b4;
@@ -143,16 +150,23 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
 }
-.nav-menu a i, .nav-menu a:focus i {
+.nav-menu a i,
+.nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
 }
-.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
-.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover > a i {
   color: #149ddd;
 }
 
@@ -471,7 +485,8 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 .portfolio #portfolio-flters li:last-child {
@@ -512,7 +527,7 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
@@ -545,14 +560,20 @@ section {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #149ddd;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
 .portfolio-details .portfolio-info {
@@ -585,54 +606,13 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+.gdesc-inner{
+  background-color: rgb(0, 0, 0);
+}
+.gslide-title{
+  color: rgb(255, 255, 255) !important;
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .icon-box {
-  margin-bottom: 20px;
 }
-.services .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: #149ddd;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #149ddd;
-}
-.services .icon i {
-  color: #fff;
-  font-size: 24px;
-  line-height: 0;
-}
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-.services .icon-box:hover .icon i {
-  color: #149ddd;
-}
-.services .title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-.services .title a {
-  color: #343a40;
-}
-.services .title a:hover {
-  color: #149ddd;
-}
-.services .description {
-  margin-left: 80px;
-  line-height: 24px;
-  font-size: 14px;
-}
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -695,7 +675,9 @@ section {
   background: #149ddd;
   color: #fff;
 }
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
