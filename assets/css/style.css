@@ -263,12 +263,12 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #edf3fe;
 }
 
 .section-title {
@@ -325,57 +325,20 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-.about_para{
+.about_para {
   line-height: 2;
-}
-/*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
-.facts {
-  padding-bottom: 30px;
-}
-.facts .count-box {
-  padding: 30px;
-  width: 100%;
-}
-.facts .count-box i {
-  display: block;
-  font-size: 44px;
-  color: #149ddd;
-  float: left;
-  line-height: 0;
-}
-.facts .count-box span {
-  font-size: 48px;
-  line-height: 40px;
-  display: block;
-  font-weight: 700;
-  color: #050d18;
-  margin-left: 60px;
-}
-.facts .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  color: #122f57;
-}
-.facts .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #122f57;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
-}
-.facts .count-box a:hover {
-  color: #1f5297;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+
+.skills {
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
 .skills .progress {
   height: 60px;
   display: block;
@@ -409,6 +372,10 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -463,6 +430,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -608,18 +579,19 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-.gdesc-inner{
+.gdesc-inner {
   background-color: rgb(0, 0, 0);
 }
-.gslide-title{
+.gslide-title {
   color: rgb(255, 255, 255) !important;
-
 }
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
+  padding-top: 30px;
   padding-bottom: 130px;
+  
 }
 .contact .info {
   padding: 30px;
